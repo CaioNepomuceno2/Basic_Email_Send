@@ -1,0 +1,11 @@
+Olá, {{ nome }}!
+
+Seja bem-vindo(a){% if empresa is defined and empresa %} à {{ empresa }}{% endif %}.
+
+Seu cadastro foi concluído com sucesso e você já pode acessar sua conta
+com o e-mail {{ email }}.
+
+Se tiver qualquer dúvida, basta responder a este e-mail.
+
+Atenciosamente,
+{{ assinatura | default("Equipe de Atendimento") }}

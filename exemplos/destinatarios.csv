@@ -1,0 +1,4 @@
+email,nome,evento,data,horario,link,anexos
+ana.souza@example.com,Ana Souza,Workshop de Python para Dados,20/03/2027,19h00,https://example.com/evento/python,anexos/programacao.txt
+bruno.lima@example.com,Bruno Lima,Workshop de Python para Dados,20/03/2027,19h00,https://example.com/evento/python,
+carla.mendes@example.com,Carla Mendes,Workshop de Python para Dados,20/03/2027,19h00,,anexos/programacao.txt

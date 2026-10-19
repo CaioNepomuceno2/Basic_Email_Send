@@ -1,0 +1,6 @@
+Workshop de Python para Dados (programação de exemplo)
+
+19h00  Abertura
+19h15  Leitura e limpeza de dados com pandas
+20h15  Intervalo
+20h30  Visualização e próximos passos

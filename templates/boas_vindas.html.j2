@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Boas-vindas</title>
+</head>
+<body style="margin:0;padding:24px;background:#f4f5f7;font-family:Arial,Helvetica,sans-serif;color:#1f2933;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;margin:0 auto;background:#ffffff;border-radius:8px;">
+    <tr>
+      <td style="padding:32px;">
+        <h1 style="margin:0 0 16px;font-size:22px;">Olá, {{ nome }}!</h1>
+        <p style="margin:0 0 12px;line-height:1.5;">
+          Seja bem-vindo(a){% if empresa is defined and empresa %} à <strong>{{ empresa }}</strong>{% endif %}.
+        </p>
+        <p style="margin:0 0 12px;line-height:1.5;">
+          Seu cadastro foi concluído com sucesso e você já pode acessar sua conta com o e-mail
+          <strong>{{ email }}</strong>.
+        </p>
+        <p style="margin:0 0 24px;line-height:1.5;">Se tiver qualquer dúvida, basta responder a este e-mail.</p>
+        <p style="margin:0;color:#52606d;">Atenciosamente,<br>{{ assinatura | default("Equipe de Atendimento") }}</p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
