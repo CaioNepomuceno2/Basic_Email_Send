@@ -1,6 +1,6 @@
 # email-sender-python
 
-[![CI](https://github.com/CaioNepomuceno2/email-sender-python/actions/workflows/ci.yml/badge.svg)](https://github.com/CaioNepomuceno2/email-sender-python/actions/workflows/ci.yml)
+[![CI](https://github.com/CaioNepomuceno2/Basic_Email_Send/actions/workflows/ci.yml/badge.svg)](https://github.com/CaioNepomuceno2/Basic_Email_Send/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Lint: ruff](https://img.shields.io/badge/lint-ruff-261230)
 
@@ -55,8 +55,8 @@ email-sender-python/
 Requer Python 3.10 ou superior.
 
 ```bash
-git clone https://github.com/CaioNepomuceno2/email-sender-python.git
-cd email-sender-python
+git clone https://github.com/CaioNepomuceno2/Basic_Email_Send.git
+cd Basic_Email_Send
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
